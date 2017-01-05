@@ -50,7 +50,7 @@ def get_mode():
 
     use_broot = get_prefs().get("use_broot")
     if use_broot is None:
-        if os.path.isfile('/etc/fedora-release'):
+        if os.path.isfile('/etc/lsb-release'):
             use_broot = False
         else:
             use_broot = True
@@ -172,7 +172,7 @@ def create_virtualenv():
 
 
 def install_system_deps():
-    if not os.path.isfile('/etc/fedora-release'):
+    if not os.path.isfile('/etc/lsb-release'):
         print('Refusing to install fedora packages on non-fedora system')
         return
 
@@ -185,7 +185,7 @@ def install_system_deps():
             if package not in packages:
                 packages.append(package)
 
-    args = ["sudo", "dnf", "install"]
+    args = ["sudo", "apt", "install"]
     args.extend(packages)
     subprocess.check_call(args)
 
