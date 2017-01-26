@@ -12,17 +12,6 @@
         "clean_stamp": 1
     },
     {
-        "docs_dir": "",
-        "docs_extras": [
-            "addHeader",
-            "noFiles"
-        ],
-        "has_docs": true,
-        "name": "sugar-docs",
-        "repo": "https://github.com/sugarlabs/sugar-docs.git",
-        "clean_stamp": 1
-    },
-    {
         "name": "sugar-base",
         "repo": "https://github.com/sugarlabs/sugar-base.git",
         "clean_stamp": 1
@@ -64,27 +53,6 @@
         "name": "sugar-runner",
         "repo": "https://github.com/sugarlabs/sugar-runner.git",
         "clean_stamp": 1
-    },
-    {
-        "has_docs": true,
-        "has_checks": true,
-        "name": "sugar-web",
-        "repo": "https://github.com/sugarlabs/sugar-web.git",
-        "clean_stamp": 1
-    },
-    {
-        "name": "sugar-web-test",
-        "repo": "https://github.com/sugarlabs/sugar-web-test.git",
-        "clean_stamp": 1
-    },
-    {
-        "name": "sugar-web-template",
-        "repo": "https://github.com/sugarlabs/sugar-web-template.git",
-        "clean_stamp": 1
-    },
-    {
-        "name": "docker",
-        "repo": "https://github.com/sugarlabs/docker.git"
     },
     {
         "name": "browse",
@@ -134,16 +102,6 @@
     {
         "name": "turtleart",
         "repo": "https://github.com/walterbender/turtleart.git",
-        "clean_stamp": 1
-    },
-    {
-        "name": "clock-web",
-        "repo": "https://github.com/manuq/clock-web.git",
-        "clean_stamp": 1
-    },
-    {
-        "name": "gtd-activity",
-        "repo": "https://github.com/manuq/gtd-activity.git",
         "clean_stamp": 1
     }
 ]
