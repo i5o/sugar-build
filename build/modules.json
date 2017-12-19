@@ -30,6 +30,12 @@
         "clean_stamp": 1
     },
     {
+        "has_checks": true,
+        "name": "gwebsockets",
+        "repo": "https://github.com/dnarvaez/gwebsockets.git",
+        "clean_stamp": 1
+    },
+    {
         "dist": true,
         "name": "sugar-artwork",
         "repo": "https://github.com/sugarlabs/sugar-artwork.git",
